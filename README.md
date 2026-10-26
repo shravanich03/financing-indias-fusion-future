@@ -5,9 +5,6 @@
 ![Dashboard](dashboard.png)
 
 > **Illustrative model.** No commercial fusion plant exists today. The 10 plants are *modelled*, placed at real NPCIL nuclear-site locations, and are **not announced projects**. Every input is either sourced or a clearly labelled assumption (see [`assumptions_register.csv`](assumptions_register.csv)).
-
-**Live interactive web version:** [shravanich03.github.io/financing-indias-fusion-future](https://shravanich03.github.io/financing-indias-fusion-future/) *(Chart.js build of the same model; the main dashboard is in Power BI)*
-
 ---
 
 ## The question

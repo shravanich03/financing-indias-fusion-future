@@ -2,7 +2,7 @@
 
 **Assessing bankability, investment risk and policy pathways for commercial fusion in India, 2026–2050.**
 
-![Dashboard](docs/dashboard.png)
+![Dashboard](dashboard.png)
 
 > **Illustrative model.** No commercial fusion plant exists today. The 10 plants are *modelled*, placed at real NPCIL nuclear-site locations, and are **not announced projects**. Every input is either sourced or a clearly labelled assumption (see [`assumptions_register.csv`](assumptions_register.csv)).
 

@@ -1,0 +1,71 @@
+{
+ "name": "Fusion Finance",
+ "dataColors": [
+  "#4A9EFF",
+  "#2EC27E",
+  "#F5A623",
+  "#F25C5C",
+  "#A78BFA",
+  "#22D3EE",
+  "#E879B9"
+ ],
+ "background": "#0E1F33",
+ "foreground": "#E8F0FA",
+ "tableAccent": "#4A9EFF",
+ "textClasses": {
+  "title": {
+   "fontFace": "Segoe UI Semibold",
+   "fontSize": 14,
+   "color": "#E8F0FA"
+  },
+  "label": {
+   "fontFace": "Segoe UI",
+   "fontSize": 10,
+   "color": "#8FA6C1"
+  },
+  "callout": {
+   "fontFace": "Segoe UI Semibold",
+   "fontSize": 30,
+   "color": "#E8F0FA"
+  }
+ },
+ "visualStyles": {
+  "*": {
+   "*": {
+    "border": [
+     {
+      "show": true,
+      "color": {
+       "solid": {
+        "color": "#1F3A5A"
+       }
+      },
+      "radius": 14
+     }
+    ],
+    "background": [
+     {
+      "show": true,
+      "color": {
+       "solid": {
+        "color": "#0E1F33"
+       }
+      },
+      "transparency": 0
+     }
+    ],
+    "title": [
+     {
+      "fontColor": {
+       "solid": {
+        "color": "#E8F0FA"
+       }
+      },
+      "fontSize": 14,
+      "fontFamily": "Segoe UI Semibold"
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,31 @@
+scenario,project,state,cod_year,capacity_gw,capacity_factor,total_capex_inr_cr,overnight_capex_inr_cr,idc_inr_cr,risk_score,bankability_score,project_irr_pct,equity_irr_pct,min_dscr,prob_dscr_ok_pct,status,dscr_ok,risk_c1,risk_c2,risk_c3,risk_c4,risk_c5,risk_c6,cod_decade,gen_2050_twh
+Conservative,Kalpakkam Fusion Demo,Tamil Nadu,2047,0.5,0.73,56899,51170,5729,56.4,35.4,0.84,-2.28,0.43,0,Not Bankable,False,21.26,8.67,8.7,9.72,5.4,2.6,2046-2048,3.2
+Conservative,Kudankulam Fusion Annexe,Tamil Nadu,2048,0.8,0.742,69030,62871,6159,54.2,45.3,2.96,1.68,0.72,2,Not Bankable,False,20.49,8.25,8.52,8.93,5.4,2.6,2046-2048,5.2
+Conservative,Tarapur Fusion Hub,Maharashtra,2048,0.8,0.754,63476,57813,5664,56.0,47.3,3.67,3.01,0.81,5,Not Bankable,False,20.13,8.76,8.34,9.2,6.6,3.0,2046-2048,5.28
+Conservative,Kakrapar Fusion Park,Gujarat,2049,1.0,0.766,78968,71922,7046,52.7,49.5,3.82,3.29,0.83,7,Not Bankable,False,20.62,8.48,8.16,8.24,4.8,2.4,2049+,6.71
+Conservative,Kaiga Fusion Station,Karnataka,2049,0.8,0.778,59876,54533,5342,52.7,51.7,4.32,4.25,0.9,10,Not Bankable,False,18.84,8.76,7.98,8.38,5.7,3.0,2049+,5.45
+Conservative,Rawatbhata Fusion,Rajasthan,2050,1.0,0.79,72678,67048,5630,52.4,53.3,4.7,4.94,0.94,14,Not Bankable,False,18.38,8.99,7.8,8.11,6.3,2.8,2049+,6.92
+Conservative,Narora Fusion Complex,Uttar Pradesh,2051,1.0,0.802,70408,64954,5454,55.1,53.6,5.07,5.63,1.0,18,Not Bankable,False,17.95,8.52,7.62,8.11,8.7,4.2,2049+,0.0
+Conservative,Mahi Banswara Fusion,Rajasthan,2051,1.0,0.814,63124,58234,4890,51.5,60.1,6.06,7.54,1.15,32,Not Bankable,False,17.77,9.62,7.44,7.54,6.3,2.8,2049+,0.0
+Conservative,Gorakhpur Fusion,Haryana,2052,0.8,0.826,50626,46704,3922,49.8,61.4,6.16,7.73,1.16,35,Marginal,False,16.46,8.58,7.26,8.01,6.0,3.5,2049+,0.0
+Conservative,Haripur Fusion,West Bengal,2053,0.8,0.838,48435,44683,3752,50.3,63.6,6.64,8.67,1.24,44,Marginal,False,15.83,7.6,7.08,7.57,8.25,4.0,2049+,0.0
+Base,Kalpakkam Fusion Demo,Tamil Nadu,2044,0.5,0.78,47416,42642,4774,56.4,46.0,3.38,2.48,0.77,4,Not Bankable,False,21.26,8.67,8.7,9.72,5.4,2.6,2044-2045,3.42
+Base,Kudankulam Fusion Annexe,Tamil Nadu,2045,0.8,0.792,57525,52392,5133,54.2,56.6,5.54,6.59,1.08,26,Not Bankable,False,20.49,8.25,8.52,8.93,5.4,2.6,2044-2045,5.55
+Base,Tarapur Fusion Hub,Maharashtra,2045,0.8,0.804,52897,48177,4720,56.0,59.6,6.31,8.08,1.2,38,Marginal,False,20.13,8.76,8.34,9.2,6.6,3.0,2044-2045,5.63
+Base,Kakrapar Fusion Park,Gujarat,2046,1.0,0.816,65807,59935,5872,52.7,62.1,6.47,8.38,1.23,42,Marginal,False,20.62,8.48,8.16,8.24,4.8,2.4,2046-2048,7.15
+Base,Kaiga Fusion Station,Karnataka,2046,0.8,0.828,49896,45444,4452,52.7,65.1,7.01,9.44,1.33,51,Marginal,True,18.84,8.76,7.98,8.38,5.7,3.0,2046-2048,5.8
+Base,Rawatbhata Fusion,Rajasthan,2047,1.0,0.84,60565,55873,4692,52.4,67.4,7.55,10.45,1.39,58,Marginal,True,18.38,8.99,7.8,8.11,6.3,2.8,2046-2048,7.36
+Base,Narora Fusion Complex,Uttar Pradesh,2048,1.0,0.852,58673,54128,4545,55.1,68.3,7.95,11.23,1.47,66,Marginal,True,17.95,8.52,7.62,8.11,8.7,4.2,2046-2048,7.46
+Base,Mahi Banswara Fusion,Rajasthan,2048,1.0,0.864,52604,48529,4075,51.5,74.3,9.06,13.4,1.68,80,Bankable,True,17.77,9.62,7.44,7.54,6.3,2.8,2046-2048,7.57
+Base,Gorakhpur Fusion,Haryana,2049,0.8,0.876,42188,38920,3268,49.8,75.1,9.17,13.6,1.7,81,Bankable,True,16.46,8.58,7.26,8.01,6.0,3.5,2049+,6.14
+Base,Haripur Fusion,West Bengal,2050,0.8,0.888,40363,37236,3127,50.3,74.8,9.7,14.65,1.8,86,Bankable,True,15.83,7.6,7.08,7.57,8.25,4.0,2049+,6.22
+Accelerated,Kalpakkam Fusion Demo,Tamil Nadu,2042,0.5,0.81,40304,36246,4058,56.4,53.9,5.14,5.86,1.03,21,Not Bankable,False,21.26,8.67,8.7,9.72,5.4,2.6,2044-2045,3.55
+Accelerated,Kudankulam Fusion Annexe,Tamil Nadu,2043,0.8,0.822,48896,44533,4363,54.2,67.2,7.52,10.42,1.42,62,Marginal,True,20.49,8.25,8.52,8.93,5.4,2.6,2044-2045,5.76
+Accelerated,Tarapur Fusion Hub,Maharashtra,2043,0.8,0.834,44962,40951,4012,56.0,71.3,8.34,12.01,1.58,73,Bankable,True,20.13,8.76,8.34,9.2,6.6,3.0,2044-2045,5.84
+Accelerated,Kakrapar Fusion Park,Gujarat,2044,1.0,0.846,55936,50945,4991,52.7,73.7,8.5,12.32,1.61,77,Bankable,True,20.62,8.48,8.16,8.24,4.8,2.4,2044-2045,7.41
+Accelerated,Kaiga Fusion Station,Karnataka,2044,0.8,0.858,42412,38628,3784,52.7,73.7,9.09,13.44,1.73,83,Bankable,True,18.84,8.76,7.98,8.38,5.7,3.0,2044-2045,6.01
+Accelerated,Rawatbhata Fusion,Rajasthan,2045,1.0,0.87,51480,47492,3988,52.4,73.8,9.78,14.8,1.82,86,Bankable,True,18.38,8.99,7.8,8.11,6.3,2.8,2044-2045,7.62
+Accelerated,Narora Fusion Complex,Uttar Pradesh,2046,1.0,0.882,49872,46009,3863,55.1,72.4,10.22,15.64,1.91,89,Bankable,True,17.95,8.52,7.62,8.11,8.7,4.2,2046-2048,7.73
+Accelerated,Mahi Banswara Fusion,Rajasthan,2046,1.0,0.894,44713,41249,3464,51.5,74.3,11.42,17.95,2.18,96,Bankable,True,17.77,9.62,7.44,7.54,6.3,2.8,2046-2048,7.83
+Accelerated,Gorakhpur Fusion,Haryana,2047,0.8,0.906,35860,33082,2778,49.8,75.1,11.53,18.16,2.2,96,Bankable,True,16.46,8.58,7.26,8.01,6.0,3.5,2046-2048,6.35
+Accelerated,Haripur Fusion,West Bengal,2048,0.8,0.918,34308,31651,2658,50.3,74.8,12.12,19.27,2.34,97,Bankable,True,15.83,7.6,7.08,7.57,8.25,4.0,2046-2048,6.43

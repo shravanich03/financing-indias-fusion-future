@@ -1,0 +1,211 @@
+scenario,project,state,year,gen_twh
+Conservative,Kalpakkam Fusion Demo,Tamil Nadu,2044,0.0
+Conservative,Kalpakkam Fusion Demo,Tamil Nadu,2045,0.0
+Conservative,Kalpakkam Fusion Demo,Tamil Nadu,2046,0.0
+Conservative,Kalpakkam Fusion Demo,Tamil Nadu,2047,3.2
+Conservative,Kalpakkam Fusion Demo,Tamil Nadu,2048,3.2
+Conservative,Kalpakkam Fusion Demo,Tamil Nadu,2049,3.2
+Conservative,Kalpakkam Fusion Demo,Tamil Nadu,2050,3.2
+Conservative,Kudankulam Fusion Annexe,Tamil Nadu,2044,0.0
+Conservative,Kudankulam Fusion Annexe,Tamil Nadu,2045,0.0
+Conservative,Kudankulam Fusion Annexe,Tamil Nadu,2046,0.0
+Conservative,Kudankulam Fusion Annexe,Tamil Nadu,2047,0.0
+Conservative,Kudankulam Fusion Annexe,Tamil Nadu,2048,5.2
+Conservative,Kudankulam Fusion Annexe,Tamil Nadu,2049,5.2
+Conservative,Kudankulam Fusion Annexe,Tamil Nadu,2050,5.2
+Conservative,Tarapur Fusion Hub,Maharashtra,2044,0.0
+Conservative,Tarapur Fusion Hub,Maharashtra,2045,0.0
+Conservative,Tarapur Fusion Hub,Maharashtra,2046,0.0
+Conservative,Tarapur Fusion Hub,Maharashtra,2047,0.0
+Conservative,Tarapur Fusion Hub,Maharashtra,2048,5.28
+Conservative,Tarapur Fusion Hub,Maharashtra,2049,5.28
+Conservative,Tarapur Fusion Hub,Maharashtra,2050,5.28
+Conservative,Kakrapar Fusion Park,Gujarat,2044,0.0
+Conservative,Kakrapar Fusion Park,Gujarat,2045,0.0
+Conservative,Kakrapar Fusion Park,Gujarat,2046,0.0
+Conservative,Kakrapar Fusion Park,Gujarat,2047,0.0
+Conservative,Kakrapar Fusion Park,Gujarat,2048,0.0
+Conservative,Kakrapar Fusion Park,Gujarat,2049,6.71
+Conservative,Kakrapar Fusion Park,Gujarat,2050,6.71
+Conservative,Kaiga Fusion Station,Karnataka,2044,0.0
+Conservative,Kaiga Fusion Station,Karnataka,2045,0.0
+Conservative,Kaiga Fusion Station,Karnataka,2046,0.0
+Conservative,Kaiga Fusion Station,Karnataka,2047,0.0
+Conservative,Kaiga Fusion Station,Karnataka,2048,0.0
+Conservative,Kaiga Fusion Station,Karnataka,2049,5.45
+Conservative,Kaiga Fusion Station,Karnataka,2050,5.45
+Conservative,Rawatbhata Fusion,Rajasthan,2044,0.0
+Conservative,Rawatbhata Fusion,Rajasthan,2045,0.0
+Conservative,Rawatbhata Fusion,Rajasthan,2046,0.0
+Conservative,Rawatbhata Fusion,Rajasthan,2047,0.0
+Conservative,Rawatbhata Fusion,Rajasthan,2048,0.0
+Conservative,Rawatbhata Fusion,Rajasthan,2049,0.0
+Conservative,Rawatbhata Fusion,Rajasthan,2050,6.92
+Conservative,Narora Fusion Complex,Uttar Pradesh,2044,0.0
+Conservative,Narora Fusion Complex,Uttar Pradesh,2045,0.0
+Conservative,Narora Fusion Complex,Uttar Pradesh,2046,0.0
+Conservative,Narora Fusion Complex,Uttar Pradesh,2047,0.0
+Conservative,Narora Fusion Complex,Uttar Pradesh,2048,0.0
+Conservative,Narora Fusion Complex,Uttar Pradesh,2049,0.0
+Conservative,Narora Fusion Complex,Uttar Pradesh,2050,0.0
+Conservative,Mahi Banswara Fusion,Rajasthan,2044,0.0
+Conservative,Mahi Banswara Fusion,Rajasthan,2045,0.0
+Conservative,Mahi Banswara Fusion,Rajasthan,2046,0.0
+Conservative,Mahi Banswara Fusion,Rajasthan,2047,0.0
+Conservative,Mahi Banswara Fusion,Rajasthan,2048,0.0
+Conservative,Mahi Banswara Fusion,Rajasthan,2049,0.0
+Conservative,Mahi Banswara Fusion,Rajasthan,2050,0.0
+Conservative,Gorakhpur Fusion,Haryana,2044,0.0
+Conservative,Gorakhpur Fusion,Haryana,2045,0.0
+Conservative,Gorakhpur Fusion,Haryana,2046,0.0
+Conservative,Gorakhpur Fusion,Haryana,2047,0.0
+Conservative,Gorakhpur Fusion,Haryana,2048,0.0
+Conservative,Gorakhpur Fusion,Haryana,2049,0.0
+Conservative,Gorakhpur Fusion,Haryana,2050,0.0
+Conservative,Haripur Fusion,West Bengal,2044,0.0
+Conservative,Haripur Fusion,West Bengal,2045,0.0
+Conservative,Haripur Fusion,West Bengal,2046,0.0
+Conservative,Haripur Fusion,West Bengal,2047,0.0
+Conservative,Haripur Fusion,West Bengal,2048,0.0
+Conservative,Haripur Fusion,West Bengal,2049,0.0
+Conservative,Haripur Fusion,West Bengal,2050,0.0
+Base,Kalpakkam Fusion Demo,Tamil Nadu,2044,3.42
+Base,Kalpakkam Fusion Demo,Tamil Nadu,2045,3.42
+Base,Kalpakkam Fusion Demo,Tamil Nadu,2046,3.42
+Base,Kalpakkam Fusion Demo,Tamil Nadu,2047,3.42
+Base,Kalpakkam Fusion Demo,Tamil Nadu,2048,3.42
+Base,Kalpakkam Fusion Demo,Tamil Nadu,2049,3.42
+Base,Kalpakkam Fusion Demo,Tamil Nadu,2050,3.42
+Base,Kudankulam Fusion Annexe,Tamil Nadu,2044,0.0
+Base,Kudankulam Fusion Annexe,Tamil Nadu,2045,5.55
+Base,Kudankulam Fusion Annexe,Tamil Nadu,2046,5.55
+Base,Kudankulam Fusion Annexe,Tamil Nadu,2047,5.55
+Base,Kudankulam Fusion Annexe,Tamil Nadu,2048,5.55
+Base,Kudankulam Fusion Annexe,Tamil Nadu,2049,5.55
+Base,Kudankulam Fusion Annexe,Tamil Nadu,2050,5.55
+Base,Tarapur Fusion Hub,Maharashtra,2044,0.0
+Base,Tarapur Fusion Hub,Maharashtra,2045,5.63
+Base,Tarapur Fusion Hub,Maharashtra,2046,5.63
+Base,Tarapur Fusion Hub,Maharashtra,2047,5.63
+Base,Tarapur Fusion Hub,Maharashtra,2048,5.63
+Base,Tarapur Fusion Hub,Maharashtra,2049,5.63
+Base,Tarapur Fusion Hub,Maharashtra,2050,5.63
+Base,Kakrapar Fusion Park,Gujarat,2044,0.0
+Base,Kakrapar Fusion Park,Gujarat,2045,0.0
+Base,Kakrapar Fusion Park,Gujarat,2046,7.15
+Base,Kakrapar Fusion Park,Gujarat,2047,7.15
+Base,Kakrapar Fusion Park,Gujarat,2048,7.15
+Base,Kakrapar Fusion Park,Gujarat,2049,7.15
+Base,Kakrapar Fusion Park,Gujarat,2050,7.15
+Base,Kaiga Fusion Station,Karnataka,2044,0.0
+Base,Kaiga Fusion Station,Karnataka,2045,0.0
+Base,Kaiga Fusion Station,Karnataka,2046,5.8
+Base,Kaiga Fusion Station,Karnataka,2047,5.8
+Base,Kaiga Fusion Station,Karnataka,2048,5.8
+Base,Kaiga Fusion Station,Karnataka,2049,5.8
+Base,Kaiga Fusion Station,Karnataka,2050,5.8
+Base,Rawatbhata Fusion,Rajasthan,2044,0.0
+Base,Rawatbhata Fusion,Rajasthan,2045,0.0
+Base,Rawatbhata Fusion,Rajasthan,2046,0.0
+Base,Rawatbhata Fusion,Rajasthan,2047,7.36
+Base,Rawatbhata Fusion,Rajasthan,2048,7.36
+Base,Rawatbhata Fusion,Rajasthan,2049,7.36
+Base,Rawatbhata Fusion,Rajasthan,2050,7.36
+Base,Narora Fusion Complex,Uttar Pradesh,2044,0.0
+Base,Narora Fusion Complex,Uttar Pradesh,2045,0.0
+Base,Narora Fusion Complex,Uttar Pradesh,2046,0.0
+Base,Narora Fusion Complex,Uttar Pradesh,2047,0.0
+Base,Narora Fusion Complex,Uttar Pradesh,2048,7.46
+Base,Narora Fusion Complex,Uttar Pradesh,2049,7.46
+Base,Narora Fusion Complex,Uttar Pradesh,2050,7.46
+Base,Mahi Banswara Fusion,Rajasthan,2044,0.0
+Base,Mahi Banswara Fusion,Rajasthan,2045,0.0
+Base,Mahi Banswara Fusion,Rajasthan,2046,0.0
+Base,Mahi Banswara Fusion,Rajasthan,2047,0.0
+Base,Mahi Banswara Fusion,Rajasthan,2048,7.57
+Base,Mahi Banswara Fusion,Rajasthan,2049,7.57
+Base,Mahi Banswara Fusion,Rajasthan,2050,7.57
+Base,Gorakhpur Fusion,Haryana,2044,0.0
+Base,Gorakhpur Fusion,Haryana,2045,0.0
+Base,Gorakhpur Fusion,Haryana,2046,0.0
+Base,Gorakhpur Fusion,Haryana,2047,0.0
+Base,Gorakhpur Fusion,Haryana,2048,0.0
+Base,Gorakhpur Fusion,Haryana,2049,6.14
+Base,Gorakhpur Fusion,Haryana,2050,6.14
+Base,Haripur Fusion,West Bengal,2044,0.0
+Base,Haripur Fusion,West Bengal,2045,0.0
+Base,Haripur Fusion,West Bengal,2046,0.0
+Base,Haripur Fusion,West Bengal,2047,0.0
+Base,Haripur Fusion,West Bengal,2048,0.0
+Base,Haripur Fusion,West Bengal,2049,0.0
+Base,Haripur Fusion,West Bengal,2050,6.22
+Accelerated,Kalpakkam Fusion Demo,Tamil Nadu,2044,3.55
+Accelerated,Kalpakkam Fusion Demo,Tamil Nadu,2045,3.55
+Accelerated,Kalpakkam Fusion Demo,Tamil Nadu,2046,3.55
+Accelerated,Kalpakkam Fusion Demo,Tamil Nadu,2047,3.55
+Accelerated,Kalpakkam Fusion Demo,Tamil Nadu,2048,3.55
+Accelerated,Kalpakkam Fusion Demo,Tamil Nadu,2049,3.55
+Accelerated,Kalpakkam Fusion Demo,Tamil Nadu,2050,3.55
+Accelerated,Kudankulam Fusion Annexe,Tamil Nadu,2044,5.76
+Accelerated,Kudankulam Fusion Annexe,Tamil Nadu,2045,5.76
+Accelerated,Kudankulam Fusion Annexe,Tamil Nadu,2046,5.76
+Accelerated,Kudankulam Fusion Annexe,Tamil Nadu,2047,5.76
+Accelerated,Kudankulam Fusion Annexe,Tamil Nadu,2048,5.76
+Accelerated,Kudankulam Fusion Annexe,Tamil Nadu,2049,5.76
+Accelerated,Kudankulam Fusion Annexe,Tamil Nadu,2050,5.76
+Accelerated,Tarapur Fusion Hub,Maharashtra,2044,5.84
+Accelerated,Tarapur Fusion Hub,Maharashtra,2045,5.84
+Accelerated,Tarapur Fusion Hub,Maharashtra,2046,5.84
+Accelerated,Tarapur Fusion Hub,Maharashtra,2047,5.84
+Accelerated,Tarapur Fusion Hub,Maharashtra,2048,5.84
+Accelerated,Tarapur Fusion Hub,Maharashtra,2049,5.84
+Accelerated,Tarapur Fusion Hub,Maharashtra,2050,5.84
+Accelerated,Kakrapar Fusion Park,Gujarat,2044,7.41
+Accelerated,Kakrapar Fusion Park,Gujarat,2045,7.41
+Accelerated,Kakrapar Fusion Park,Gujarat,2046,7.41
+Accelerated,Kakrapar Fusion Park,Gujarat,2047,7.41
+Accelerated,Kakrapar Fusion Park,Gujarat,2048,7.41
+Accelerated,Kakrapar Fusion Park,Gujarat,2049,7.41
+Accelerated,Kakrapar Fusion Park,Gujarat,2050,7.41
+Accelerated,Kaiga Fusion Station,Karnataka,2044,6.01
+Accelerated,Kaiga Fusion Station,Karnataka,2045,6.01
+Accelerated,Kaiga Fusion Station,Karnataka,2046,6.01
+Accelerated,Kaiga Fusion Station,Karnataka,2047,6.01
+Accelerated,Kaiga Fusion Station,Karnataka,2048,6.01
+Accelerated,Kaiga Fusion Station,Karnataka,2049,6.01
+Accelerated,Kaiga Fusion Station,Karnataka,2050,6.01
+Accelerated,Rawatbhata Fusion,Rajasthan,2044,0.0
+Accelerated,Rawatbhata Fusion,Rajasthan,2045,7.62
+Accelerated,Rawatbhata Fusion,Rajasthan,2046,7.62
+Accelerated,Rawatbhata Fusion,Rajasthan,2047,7.62
+Accelerated,Rawatbhata Fusion,Rajasthan,2048,7.62
+Accelerated,Rawatbhata Fusion,Rajasthan,2049,7.62
+Accelerated,Rawatbhata Fusion,Rajasthan,2050,7.62
+Accelerated,Narora Fusion Complex,Uttar Pradesh,2044,0.0
+Accelerated,Narora Fusion Complex,Uttar Pradesh,2045,0.0
+Accelerated,Narora Fusion Complex,Uttar Pradesh,2046,7.73
+Accelerated,Narora Fusion Complex,Uttar Pradesh,2047,7.73
+Accelerated,Narora Fusion Complex,Uttar Pradesh,2048,7.73
+Accelerated,Narora Fusion Complex,Uttar Pradesh,2049,7.73
+Accelerated,Narora Fusion Complex,Uttar Pradesh,2050,7.73
+Accelerated,Mahi Banswara Fusion,Rajasthan,2044,0.0
+Accelerated,Mahi Banswara Fusion,Rajasthan,2045,0.0
+Accelerated,Mahi Banswara Fusion,Rajasthan,2046,7.83
+Accelerated,Mahi Banswara Fusion,Rajasthan,2047,7.83
+Accelerated,Mahi Banswara Fusion,Rajasthan,2048,7.83
+Accelerated,Mahi Banswara Fusion,Rajasthan,2049,7.83
+Accelerated,Mahi Banswara Fusion,Rajasthan,2050,7.83
+Accelerated,Gorakhpur Fusion,Haryana,2044,0.0
+Accelerated,Gorakhpur Fusion,Haryana,2045,0.0
+Accelerated,Gorakhpur Fusion,Haryana,2046,0.0
+Accelerated,Gorakhpur Fusion,Haryana,2047,6.35
+Accelerated,Gorakhpur Fusion,Haryana,2048,6.35
+Accelerated,Gorakhpur Fusion,Haryana,2049,6.35
+Accelerated,Gorakhpur Fusion,Haryana,2050,6.35
+Accelerated,Haripur Fusion,West Bengal,2044,0.0
+Accelerated,Haripur Fusion,West Bengal,2045,0.0
+Accelerated,Haripur Fusion,West Bengal,2046,0.0
+Accelerated,Haripur Fusion,West Bengal,2047,0.0
+Accelerated,Haripur Fusion,West Bengal,2048,6.43
+Accelerated,Haripur Fusion,West Bengal,2049,6.43
+Accelerated,Haripur Fusion,West Bengal,2050,6.43

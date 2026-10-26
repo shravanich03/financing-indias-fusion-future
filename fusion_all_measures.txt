@@ -1,0 +1,45 @@
+-- ===== STEP A: TABLE (Modeling > New table). This is a TABLE, not a measure. =====
+dim_state = DISTINCT ( fact_projects[state] )
+
+-- ===== STEP B: MEASURES. Right-click the table 'fact_projects' > New measure, one at a time. =====
+-- ---- core ----
+Selected Scenario = SELECTEDVALUE ( fact_projects[scenario], "Base" )
+
+Investment L Cr = CALCULATE ( SUM ( fact_projects[total_capex_inr_cr] ), fact_projects[scenario] = [Selected Scenario] ) / 100000
+Capacity GW     = CALCULATE ( SUM ( fact_projects[capacity_gw] ), fact_projects[scenario] = [Selected Scenario] )
+Project Count   = CALCULATE ( COUNTROWS ( fact_projects ), fact_projects[scenario] = [Selected Scenario] )
+Gen 2050 TWh    = CALCULATE ( SUM ( fact_projects[gen_2050_twh] ), fact_projects[scenario] = [Selected Scenario] )
+Avg Project IRR = CALCULATE ( AVERAGE ( fact_projects[project_irr_pct] ), fact_projects[scenario] = [Selected Scenario] )
+Avg Equity IRR  = CALCULATE ( AVERAGE ( fact_projects[equity_irr_pct] ), fact_projects[scenario] = [Selected Scenario] )
+Avg Risk        = CALCULATE ( AVERAGE ( fact_projects[risk_score] ), fact_projects[scenario] = [Selected Scenario] )
+DSCR OK Count   = CALCULATE ( COUNTROWS ( fact_projects ), fact_projects[scenario] = [Selected Scenario], fact_projects[min_dscr] >= 1.3 )
+Bankable Count  = CALCULATE ( COUNTROWS ( fact_projects ), fact_projects[scenario] = [Selected Scenario], fact_projects[status] = "Bankable" )
+
+-- ---- KPI card text ----
+KPI Investment = "₹" & FORMAT ( [Investment L Cr], "0.00" ) & " L Cr"
+KPI Generation = FORMAT ( [Gen 2050 TWh], "0" ) & " TWh"
+KPI IRR        = FORMAT ( [Avg Project IRR], "0.00" ) & "%"
+KPI Risk       = FORMAT ( [Avg Risk], "0.0" ) & " / 100"
+KPI DSCR       = [DSCR OK Count] & " of " & [Project Count]
+KPI Bankable   = [Bankable Count] & " of " & [Project Count]
+KPI Sub 1      = FORMAT ( [Capacity GW], "0.0" ) & " GW · " & [Project Count] & " projects incl. IDC"
+KPI Sub 3      = "equity IRR " & FORMAT ( [Avg Equity IRR], "0.00" ) & "% (real)"
+
+-- ---- chart measures ----
+Gen TWh = SUM ( fact_generation[gen_twh] )
+Risk Contribution =
+CALCULATE (
+    SWITCH ( MAX ( dim_risk[sort] ),
+        0, AVERAGE ( fact_projects[risk_c1] ),
+        1, AVERAGE ( fact_projects[risk_c2] ),
+        2, AVERAGE ( fact_projects[risk_c3] ),
+        3, AVERAGE ( fact_projects[risk_c4] ),
+        4, AVERAGE ( fact_projects[risk_c5] ),
+        5, AVERAGE ( fact_projects[risk_c6] ) ),
+    fact_projects[scenario] = [Selected Scenario] )
+
+-- ---- colour helpers (used with Conditional formatting > Format style: Field value) ----
+Status Color = SWITCH ( SELECTEDVALUE ( fact_projects[status] ), "Bankable", "#2EC27E", "Marginal", "#F5A623", "Not Bankable", "#F25C5C", "#8FA6C1" )
+Risk Color   = VAR r = MAX ( fact_projects[risk_score] ) RETURN IF ( r > 55, "#F25C5C", IF ( r > 52, "#F5A623", "#2EC27E" ) )
+DSCR Color   = IF ( MIN ( fact_projects[min_dscr] ) >= 1.3, "#2EC27E", "#F25C5C" )
+Prob Color   = VAR p = MAX ( fact_projects[prob_dscr_ok_pct] ) RETURN IF ( p >= 70, "#2EC27E", IF ( p >= 40, "#F5A623", "#F25C5C" ) )

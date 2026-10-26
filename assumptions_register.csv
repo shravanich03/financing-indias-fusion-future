@@ -1,0 +1,19 @@
+parameter,value,status,source_or_note
+USD/INR,95.5,Sourced,PTI/HDFC Sky close 25-Aug-2026 (95.46) - refresh before publishing
+Nuclear target,100 GW by 2047,Sourced,SHANTI Act 2025 / Nuclear Energy Mission
+Nuclear Energy Mission outlay,Rs 20000 cr,Sourced,SHANTI Bill summary
+Operator liability tiers,Rs 100 cr to Rs 3000 cr,Sourced,SHANTI Act (verify against Act text)
+Fusion covered by SHANTI Act,Unknown,Verify,Read Act definitions - do not assume
+First-plant capex,8500 USD/kW,Benchmarked,Cite ITER/UKAEA STEP/FIA cost studies
+Learning rate,12% per doubling,Assumed,Sensitivity-test 5-20%
+Nominal debt cost,9.0%,Benchmarked,RBI repo + infra spread - refresh
+Inflation,4.5%,Benchmarked,RBI target band - model is constant-2026 INR
+Gearing,65%,Assumed,Typical infra project finance
+Tenor,18 years,Assumed,
+Corporate tax,25.17%,Benchmarked,Sec 115BAA - verify
+Tariff (real),11.5 INR/kWh,Assumed,Firm clean-power premium; sensitivity-tested
+Opex,2.5% of capex/yr,Assumed,Incl. blanket/tritium handling
+DSCR covenant,1.30x,Assumed,Typical lender covenant
+ECB share of debt,22%,Assumed,
+Offtake/grid risk scores,by state,Illustrative,Replace with MoP DISCOM integrated ratings
+Pipeline sites,10 NPCIL sites,Illustrative,Real locations; plants are modelled not announced

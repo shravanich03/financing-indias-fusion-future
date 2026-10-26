@@ -9,11 +9,11 @@ Learning rate,12% per doubling,Assumed,Sensitivity-test 5-20%
 Nominal debt cost,9.0%,Benchmarked,RBI repo + infra spread - refresh
 Inflation,4.5%,Benchmarked,RBI target band - model is constant-2026 INR
 Gearing,65%,Assumed,Typical infra project finance
-Tenor,18 years,Assumed,
+Tenor,18 years,Assumed,"Typical long-tenor infrastructure loan, shorter than the 30-year plant life; test 15-20 years"
 Corporate tax,25.17%,Benchmarked,Sec 115BAA - verify
-Tariff (real),11.5 INR/kWh,Assumed,Firm clean-power premium; sensitivity-tested
+Tariff (real),11.5 INR/kWh,Assumed,Firm clean-power premium; varied -10%/+5% across scenarios and in Monte Carlo
 Opex,2.5% of capex/yr,Assumed,Incl. blanket/tritium handling
 DSCR covenant,1.30x,Assumed,Typical lender covenant
-ECB share of debt,22%,Assumed,
+ECB share of debt,22%,Assumed,Share of debt raised in foreign currency; drives the FX Sensitivity analysis; check RBI ECB rules
 Offtake/grid risk scores,by state,Illustrative,Replace with MoP DISCOM integrated ratings
 Pipeline sites,10 NPCIL sites,Illustrative,Real locations; plants are modelled not announced
